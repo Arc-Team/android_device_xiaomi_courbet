@@ -109,5 +109,8 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_PACKAGES += \
     vndservicemanager
 
+# Recovery Override
+PRODUCT_PROPERTY_OVERRIDES += persist.vendor.recovery_update=false
+
 # Call the proprietary setup
 $(call inherit-product, vendor/xiaomi/courbet/courbet-vendor.mk)
