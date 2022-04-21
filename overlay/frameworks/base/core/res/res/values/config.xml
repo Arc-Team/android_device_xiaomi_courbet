@@ -401,4 +401,6 @@
         available on some devices. -->
     <bool name="config_enableHapticTextHandle">true</bool>
 
+    <!-- Whether the device supports Smart Pixels -->
+    <bool name="config_supportSmartPixels">true</bool>
 </resources>
